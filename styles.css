@@ -1,0 +1,57 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cuerpo */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #CEF56C;
+    color: #F54927;
+}
+
+/* Navegación */
+.navbar {
+    background-color: #F54927;
+    text-align: center;
+    padding: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #A4A8F5;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    display: inline-block;
+    margin: 5px;
+}
+
+.navbar a:hover,
+.navbar a:focus {
+    background-color: #ffffff;
+    color: #F54927;
+}
+
+/* Imágenes */
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+/* Listas */
+ul, ol {
+    margin-left: 50px;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+    color: #666666;
+}
