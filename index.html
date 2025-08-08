@@ -1,11 +1,55 @@
 
 <!DOCTYPE html>
+
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Bord-Art Electro Textil</title>
-</head>
+<meta charset="utf-8"/>
+<title>Bord-Art Electro Textil</title>
+<link href="style.css" rel="stylesheet"/>
+<style>
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.navbar li {
+  display: inline;
+}
+.navbar a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+.navbar a:hover {
+  background-color: #575757;
+}
+</style></head>
 <body>
+<nav class="navbar">
+<ul>
+<li><a href="#electrotextil">Electrotextil</a></li>
+<li><a href="Introducción.html">Introducción</a></li>
+<li><a href="Proceso.html">Proceso</a></li>
+<li><a href="Descripción de la Empresa.html">Descripción de la Empresa</a></li>
+<li><a href="Resultados.html">Resultados</a></li>
+<li><a href="Ubicación.html">Ubicación</a></li>
+<li><a href="Contacto.html">Contacto</a></li>
+<li><a href="galeria.html">Galeria de fotos</a></li>
+</ul>
+</nav>
 
 	<!--Introducción-->
 
@@ -23,19 +67,6 @@ y dispositivos de conexión como redes Wi-Fi o cables Ethernet para integrar tod
 Requerimos software de diseño gráfico compatible con máquinas de bordado, además de
 programas específicos para controlar y programar los dispositivos, que permitan cargar los
 diseños y gestionar la producción.</p>
-
-	<!--Clic paginas de referencia-->
-
-    <h2>Electrotextil</h2>
-    <img src="img/Servilleta.jpg" alt="Servilleta" width="20%">
-    <img src="img/Sensores.jpg" alt="Sensores" width="44.5%">
-
-    <h2>Más sobre nosotros</h2>
-    <button onclick="window.location.href='Introducción.html'">INTRODUCCIÓN</button>
-    <button onclick="window.location.href='Proceso.html'">PROCESO</button>
-    <button onclick="window.location.href='Descripción de la Empresa.html'">DESCRIPCIÓN DE LA EMPRESA</button>
-    <button onclick="window.location.href='Ubicación.html'">UBICACIÓN</button>
-    <button onclick="window.location.href='Contacto.html'">CONTACTO</button>
 
 	<!--Desarrollo-->
 
@@ -55,10 +86,7 @@ además de contar con un increíble potencial económico, hay distintos sectores
 pueden beneficiar por este tipo de tecnologías, como son el sector deportivo, la medicina, la
 defensa e incluso la moda.</p>
 
-     <img src="img/Traje de charro.jpg" alt="Traje de charro" width="18.5%">
-     <img src="img/Blusa moderna.jpg" alt="Blusa moderna" width="20%">
-     <img src="img/Guallabera.jpg" alt="Guallabera" width="20%">
-     <img src="img/Vestido Rojo.jpg" alt="Vestido Rojo" width="20%">
+     <img src="img/maquinas.jpg" alt="maquinas bordando" width="48%">
 
 	<!--Resolución-->
 
@@ -97,14 +125,20 @@ de esta nueva tecnología electro textil en Servilletas bordadas puede lograr va
 e ir más allá de la función tradicional que se mantiene transformándolas en elementos
 inteligentes, elegantes y funcionales.</p>
 
-     <img src="img/Integración.jpg" alt="Integración" width="21.5%">
-     <img src="img/Integración 2.jpg" alt="Integración 2" width="20%">
-     <img src="img/Medición.jpg" alt="Medición" width="29%">
+     <img src="img/Medición.jpg" alt="Medición" width="48%">
 
+<div id="modal" class="modal">
+  <span class="cerrar">&times;</span>
+  <img class="contenido-modal" id="img-grande">
+  <div id="texto"></div>
+</div>
+
+<link rel="stylesheet" href="style.css">
+<script src="script1.js"></script>
 
 	<hr>
-		<img src="img/Logo.jpg" alt="Logo" width="10%">
-		<p>Bord Art ®</p>
+		<img src="img/Logo.jpg" alt="Logo" width="5%">
+		<p>Bord Art®</p>
 	<hr>
     		<p>Autor: Venancio López Arellano - Publicado el 28 de julio del 2025</p>
 
